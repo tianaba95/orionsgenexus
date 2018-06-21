@@ -1,0 +1,51 @@
+/*
+               File: WWSEG_ROLYPANTALLA
+        Description: Work With Rol y pantall
+             Author: GeneXus Java Generator version 15_0_4-113785
+       Generated on: June 14, 2018 14:19:22.64
+       Program type: Callable routine
+          Main DBMS: oracle7
+*/
+package com.orions2 ;
+import com.orions2.*;
+import com.genexus.*;
+import com.genexus.db.*;
+import com.genexus.webpanels.*;
+import java.sql.*;
+import com.genexus.search.*;
+
+@javax.servlet.annotation.WebServlet(value ="/servlet/com.orions2.wwseg_rolypantalla")
+public final  class wwseg_rolypantalla extends GXWebObjectStub
+{
+   protected void doExecute( com.genexus.internet.HttpContext context ) throws Exception
+   {
+      new wwseg_rolypantalla_impl(context).doExecute();
+   }
+
+   protected void init( com.genexus.internet.HttpContext context )
+   {
+      new wwseg_rolypantalla_impl(context);
+   }
+
+   public String getServletInfo( )
+   {
+      return "Work With Rol y pantall";
+   }
+
+   protected boolean IntegratedSecurityEnabled( )
+   {
+      return false;
+   }
+
+   protected int IntegratedSecurityLevel( )
+   {
+      return 0;
+   }
+
+   protected String IntegratedSecurityPermissionPrefix( )
+   {
+      return "";
+   }
+
+}
+
